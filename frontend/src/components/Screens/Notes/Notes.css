@@ -1,0 +1,51 @@
+.notes {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  position: relative;
+}
+
+.todo-main {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.note-inputs-div {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.note-inputs {
+  border: none;
+  outline: none;
+}
+
+#textarea {
+  display: none;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notes-update {
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  background-color: blanchedalmond;
+  display: none;
+}
+
+.update {
+  height: 100%;
+}
+
+.notes-inputs {
+  border: none;
+  outline: none;
+}

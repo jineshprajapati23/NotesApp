@@ -1,0 +1,27 @@
+.navbar-brand {
+  color: rgba(240, 0, 0, 0.87);
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-nav {
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 5px;
+  color: white !important;
+  font-weight: bold;
+  transition: background-color 1s ease;
+}
+
+.btn-nav:hover {
+  background-color: transparent;
+  color: rgba(240, 0, 0, 0.87) !important;
+  outline: 5px background-color;
+}
+
+.btn-nav:active {
+  background-color: transparent;
+  color: rgba(240, 0, 0, 0.87) !important;
+}
